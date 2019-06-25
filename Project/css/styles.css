@@ -1,6 +1,7 @@
 
 body{
-    background-color: aqua;
+    
+    background-color:red;
     margin: 0;
     padding: 0;
 }
@@ -22,5 +23,42 @@ body{
 .round-img{
     border: 3px dotted red;
     border-radius: 100px;
+}
+
+#row_f{
+    width: 300px;
+    height: 60px;
+    background-color: orange;
+}
+
+#row_f input[type=text]{
+    width: 200px;
+    max-width: 290px;
+    height: 40px;
+    background-color: blue;
+    color: white;
 
 }
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1159px){
+    #box_1 img{
+        width: 600px;
+        height: 600px;
+        background-color: yellow;
+        margin: 10px;
+        padding: 20px;
+        border: 3px dotted red;
+        border-radius: 25px;
+    }
+    
+}
+
+.contenedor{
+    width: 70%;
+}
+
+crear una pagina que tenga un fondo, que tenga centrado un contenedor de 70% y dentro de ese
+contenedor realizar 3 renglones. el segundo renglon va a tener datos de formulario. 
+uno que me cambie el background 
